@@ -2,7 +2,7 @@
 
 A full-stack inventory reservation platform built with Next.js 14 (App Router), TypeScript, Prisma, and PostgreSQL. Designed to prevent overselling under concurrent load while avoiding stock lock-up from abandoned carts.
 
-**Live Demo:** [stockreserve.vercel.app](https://stockreserve.vercel.app) _(replace with your URL after deployment)_
+**Live Demo:** [stockreserve.vercel.app](https://inventory-reservation-system-topaz-five.vercel.app/) _(replace with your URL after deployment)_
 
 ---
 
