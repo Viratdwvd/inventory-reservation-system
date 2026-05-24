@@ -33,8 +33,10 @@ interface RawInventory {
   reservedStock: number;
 }
 
+import type { Decimal } from "@prisma/client/runtime/library";
+
 export type ReservationWithRelations = Reservation & {
-  product: { id: string; name: string; sku: string; price: string };
+  product: { id: string; name: string; sku: string; price: string | Decimal };
   warehouse: { id: string; name: string; location: string };
 };
 
