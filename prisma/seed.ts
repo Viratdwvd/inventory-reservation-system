@@ -78,7 +78,7 @@ async function main() {
         name: "SteelSeries Apex Pro TKL",
         sku: "STL-APXTKLWL",
         description: "Wireless Mechanical Gaming Keyboard, OmniPoint 2.0",
-        price: new Decimal("17999.00"),
+        price: 17999.00,
         imageUrl:
           "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400",
       },
