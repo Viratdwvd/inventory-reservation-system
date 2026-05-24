@@ -48,7 +48,7 @@ async function main() {
         name: "Apple AirPods Pro (2nd Gen)",
         sku: "APL-APP-2ND",
         description: "Active Noise Cancellation, Adaptive Transparency",
-        price: new Decimal("19900.00"),
+        price: 19900.00,
         imageUrl:
           "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=400",
       },
@@ -58,7 +58,7 @@ async function main() {
         name: "Samsung Galaxy Tab S9",
         sku: "SAM-TABS9",
         description: "11-inch Dynamic AMOLED 2X display, Snapdragon 8 Gen 2",
-        price: new Decimal("72999.00"),
+        price: 72999.00,
         imageUrl:
           "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=400",
       },
@@ -68,7 +68,7 @@ async function main() {
         name: "Logitech MX Master 3S",
         sku: "LGT-MXM3S",
         description: "Advanced Wireless Mouse with 8K DPI Sensor",
-        price: new Decimal("8995.00"),
+        price: 8995.00,
         imageUrl:
           "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400",
       },
