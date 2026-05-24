@@ -3,7 +3,7 @@
 // - Bangalore Tech Park has 1-unit stock on 2 products — for race condition demos
 // - Delhi North Hub has low stock (3 units) on AirPods — for 409 testing
 // Run: npm run db:seed
-import { PrismaClient, Decimal } from "@prisma/client";
+import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
@@ -38,7 +38,7 @@ async function main() {
         name: "Sony WH-1000XM5 Headphones",
         sku: "SNY-WH1000XM5",
         description: "Industry-leading noise canceling wireless headphones",
-        price: new Decimal("24999.00"),
+        price: 24999.00,
         imageUrl:
           "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
       },
